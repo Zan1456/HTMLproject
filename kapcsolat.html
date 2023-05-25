@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Android ROM-ok</title>
+    <style>
+        /* Kapcsolat */
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .contact-container h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-container p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: #525252;
+        }
+        
+        .form-group textarea {
+            height: 100px;
+        }
+        
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #525252;
+            border: none;
+            color: #ffffff;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #444444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png"></img>
+        <h1>Android ROM-ok</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="letoltesek.html">Letöltések</a></li>
+            <li><a href="telepites.html">Telepítés</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact-container">
+            <h2>Kapcsolat</h2>
+            <p>Ha kérdése van, vagy szeretne velünk kapcsolatba lépni, kérjük, töltse ki az alábbi űrlapot.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Üzenet:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Küldés</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 Android ROM-ok. Minden jog fenntartva.</p>
+        <p>Kapcsolat: info@android-romok.hu</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Android ROM-ok</title>
+    <style>
+        /* Navigáció javítása */
+        #navi {
+            background-color: #222222;
+        }
+
+        /* Letöltési oldal stílusai */
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            position: relative;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #4e4e4e;
+            margin-bottom: 10px;
+        }
+
+        li.optional:before {
+            background-color: #ccc;
+        }
+
+        li img {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        #opt {
+            background-color: #292929;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png"></img>
+        <h1>Android ROM-ok</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="navi"><a href="index.html">Kezdőlap</a></li>
+            <li id="navi"><a href="letoltesek.html">Letöltések</a></li>
+            <li id="navi"><a href="telepites.html">Telepítés</a></li>
+            <li id="navi"><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Android ROM telepítési útmutató</h2>
+        <p>Az alábbiakban bemutatjuk, hogyan telepítheted az Android ROM-ot a telefonodra.</p>
+
+        <ol>
+            <li>Ellenőrizd a telefonod kompatibilitását az adott ROM-mal.</li>
+            <li>Találd meg a telefonod és töltsd le a megfelelő ROM verziót.</li>
+            <li>Állítsd be a telefonodat a telepítéshez szükséges módba.</li>
+            <li>Másold át az ROM fájlt a telefonodra, és jegyezd meg a fájl helyét.</li>
+            <li>Indítsd el a telefonodon a <i>recovery</i> módot.</li>
+            <li id="opt">Készíts biztonsági másolatot a fontos adatokról (opcionális).</li>
+            <li>Töröld a telefontól a régi ROM-ot a <i>recovery</i> módban.</li>
+            <li>Válaszd ki az <i>Install ZIP from SD Card</i> (vagy hasonló) opciót.</li>
+            <li>Találd meg az előző lépésben másolt ROM fájlt, és válaszd ki a telepítéshez.</li>
+            <li>Indítsd el a telepítést, majd várj, amíg befejeződik.</li>
+            <li>Telepítés után válaszd a <i>Reboot System Now</i> opciót.</li>
+        </ol>
+    </main>
+    <footer>
+        <p>© 2023 Android ROM-ok. Minden jog fenntartva.</p>
+        <p>Kapcsolat: info@android-romok.hu</p>
+    </footer>
+</body>
+</html>
